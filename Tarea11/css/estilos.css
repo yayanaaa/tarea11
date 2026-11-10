@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica , sans-serif;
+}
+
+#encabezado{
+    background-color: rgba(65, 57, 215, 0.564);
+    color: white;
+    /* El relleno o padding espacio entre el codino del elemnto y su borde 
+    Se aplican los valores en sentido horario top, right, buttom, left
+    1valor: t, r, b, l  2valores: tb, rl  3valores: t, rl, b*/
+
+    border: 2px solid rgba(245, 245, 0, 0.935);
+    padding: 15px 5px 50px 150px ;
+
+    /* 
+    el margen   
+    */
+    margin: 15px 5px;
+
+    /* 
+    Es el contornos visual alreadedor de nuestro contenido HTML(dentro de el podemos encontrar el contenido del elemento y su relleno)
+    valores: solid, doted, double, groove, ridge, hiden y none
+     */
+     border: 2px, solid rgb(242, 255, 0);
+     border-bottom-style: double;
+     border-left-color: rgb(242, 255, 0) ;
+     border-right-color: rgb(242, 255, 0);
+     border-bottom-width: 5px;
+     border-radius: 26%;
+/* 
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: red; */
+    /*
+    box-shadow:
+    Se puede utilizar para crear efectos de sombra alrededor del borde de un elemento, se
+    deben especificar los valores: desplazamiento horizontal, vertical, radio desenfoque, de progagación y color 
+     */
+     box-shadow: 5px 5px 10px 10px rgba(143, 64, 216, 0.753);
+
+
+     
+
+}
+  .introduccion {
+        border: 2px solid gold ;
+        padding: 5px;
+        background-color: rgb(206, 165, 232);
+        color: black ;
+     }
+
+
+    .introduccion p{
+        border: 2px solid gold ;
+        padding: 5px;
+        background-color: rgb(144, 107, 214);
+        color: black ;
+     }
+
+     .introduccion span{
+    width: 300px ;
+    height: 150 px;
+    border: 2 px dotted gold;
+    padding: 10%;
+    margin: 10%;
+     }
+
